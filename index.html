@@ -1,18 +1,16 @@
 <html lang="en">
+
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <title>Document</title>
         <link rel="stylesheet" href="CSS/main.css" />
+        <script src="JS/order.js" defer></script>
     </head>
 
     <body>
         <header class="page-header">
             <nav class="nav">
-                <img
-                    src="Images/Logo-sm.svg"
-                    alt="Logo-sm"
-                    class="nav__img--sm"
-                />
+                <img src="Images/Logo-sm.svg" alt="Logo-sm" class="nav__img--sm" />
                 <img src="Images/Logo.svg" alt="Logo-lg" class="nav__img--lg" />
                 <ul class="nav__list">
                     <li>
@@ -31,33 +29,29 @@
             </nav>
         </header>
         <div class="main">
-            <img
-                src="./Images/Main-image.png"
-                alt="Burger"
-                class="main__image"
-            />
+            <img src="./Images/Main-image.png" alt="Burger" class="main__image" />
             <div class="main__div">
                 <h1 class="main__title">Delishes vegetarian Burgers</h1>
                 <p class="main__text">Best Burgers You’ll ever try!!!</p>
                 <div class="main__div--btn">
-                    <a class="btn btn--primary">Order Now</a>
-                    <a class="btn btn--ghost">Takeaway</a>
+                    <a href="order.html" class="btn btn--primary">Order Now</a>
+                    <a href="order.html" class="btn btn--ghost">Takeaway</a>
                 </div>
             </div>
         </div>
         <div id="about" class="about">
             <h1 class="about__title">Good for planet, good for us</h1>
             <p class="about__text">
-                Out burgers are vegeterian friendly and have no harmfull effect
-                on envierment. We beleve that fast food can be healthy only if
+                Out burgers are vegetarian friendly and have no harmfull effect
+                on environment. We beleve that fast food can be healthy only if
                 its not hurting animals and our palnet.
                 <span>
-                    If you want to support our insetntive fot better tommorow,
+                    If you want to support our incentive fot better tomorrow,
                     you can buy our 100% Vegi burgersat any of our "The Burger
                     Town” shops.
                 </span>
             </p>
-            <a class="btn btn--ghost about__btn">Buy</a>
+            <a href="order.html" class="btn btn--ghost about__btn">Buy</a>
         </div>
         <div id="order" class="order__out">
             <div class="order">
@@ -69,7 +63,7 @@
                     <p class="order__card__text">
                         our team will deliver any orders in less than a hour
                     </p>
-                    <a class="order__card__btn btn btn--ghost"> Order Now </a>
+                    <a href="order.html" class="order__card__btn btn btn--ghost"> Order Now </a>
                 </div>
                 <div class="order__card">
                     <h1 class="order__card__title">Takeaway</h1>
@@ -77,7 +71,7 @@
                         We will ensure that your food is still hot whenever your
                         decide to pick it up
                     </p>
-                    <a class="order__card__btn btn btn--ghost"> Place order </a>
+                    <a href="order.html" class="order__card__btn btn btn--ghost"> Place order </a>
                 </div>
             </div>
             <h1 class="order__title__bottom">First delivery is on the house</h1>
@@ -96,59 +90,19 @@
             <h3 class="menu__item">Pepsi - 1,99$</h3>
             <h3 class="menu__item">Vegi lunch - 12,99$</h3>
         </div>
-        <nav class="nav__footer">
-            <img
-                class="nav__footer__img"
-                src="images/Logo-footer.svg"
-                alt="Logo"
-            />
-            <a href=" #" class="footer__link__home">Home </a>
-            <a href="#about" class="footer__link__about">About </a>
-            <a href="#order" class="footer__link__order">Order </a>
-            <a href="#menu" class="footer__link__menu">Menu </a>
-            <h1 href="" class="footer__link__design">
-                Designed by: Sergej Stojanovic
-            </h1>
-        </nav>
-        <div class="order--popUp__out">
-            <div class="order--popUp">
-                <img
-                    src="/Images/Order--popup__img.png"
-                    alt="background image"
-                    class="order--popUp__img"
-                />
-                <h1 class="order--popUp__title">
-                    Choose the way you want to order
+        <footer>
+            <nav class="nav__footer">
+                <img class="nav__footer__img" src="images/Logo-footer.svg" alt="Logo" />
+                <a href=" #" class="footer__link__home">Home </a>
+                <a href="#about" class="footer__link__about">About </a>
+                <a href="#order" class="footer__link__order">Order </a>
+                <a href="#menu" class="footer__link__menu">Menu </a>
+                <h1 href="" class="footer__link__design">
+                    Designed by: Sergej Stojanovic
                 </h1>
-                <div class="order--popUp__card">
-                    <h1 class="order--popUp__card__title">Delivery</h1>
-                    <ul class="order--popUp__card__list">
-                        <li class="order--popUp__item">
-                            Free Delicery over $ 8
-                        </li>
-                        <li class="order--popUp__item">
-                            Delivery under a hour
-                        </li>
-                        <li class="order--popUp__item">Hot food guarantied</li>
-                    </ul>
-                    <a href="" class="order--popUp__btn btn btn--ghost"
-                        >Order</a
-                    >
-                </div>
-                <div class="order--popUp__card">
-                    <h1 class="order--popUp__card__title">Takeaway</h1>
-                    <ul class="order--popUp__card__list">
-                        <li class="order--popUp__item">hot and ready</li>
-                        <li class="order--popUp__item">
-                            waiting up to 3 hours
-                        </li>
-                        <li class="order--popUp__item">Hot food guarantied</li>
-                    </ul>
-                    <a href="" class="order--popUp__btn btn btn--ghost"
-                        >Order</a
-                    >
-                </div>
-            </div>
-        </div>
+            </nav>
+        </footer>
+
     </body>
+
 </html>

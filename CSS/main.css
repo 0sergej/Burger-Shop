@@ -371,6 +371,10 @@ header {
     margin-top: 10%;
 }
 
+.hidden{
+    display: none;
+}
+
 .order--popUp__card__list {
     line-height: 2rem;
     font-size: 0.9rem;
