@@ -67,6 +67,7 @@ header {
     text-decoration: none;
     color: inherit;
     position: relative;
+    z-index: 1;
 }
 
 /* 2.0 main */
@@ -371,7 +372,7 @@ header {
     margin-top: 10%;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
