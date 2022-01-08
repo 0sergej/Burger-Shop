@@ -332,7 +332,6 @@ header {
     position: relative;
     left: 12.5%;
     width: 75%;
-    height: 75%;
     background-color: var(--color-bg);
     border: var(--color-orange);
     outline: 5px solid var(--color-dark);
@@ -370,6 +369,7 @@ header {
     background-color: var(--color-orange);
     border-radius: 16px;
     margin-top: 10%;
+    height: 110%;
 }
 
 .hidden {
